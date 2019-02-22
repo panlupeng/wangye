@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    background: #f1f1f1;
+    font-size: 14px;
+}
+
+.nav {
+    width: 100%;
+    height: 79px;
+    background: white;
+    position: fixed;
+    top: 0;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+    z-index: 5;
+}
+
+.nav-container {
+    width: 1170px;
+    height: 79px;
+/ / background: red;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+}
+
+.nav-row {
+    margin-right: -15px;
+    margin-left: -15px;
+    width: 1170px;
+    height: 79px;
+/ / background: #f3a90a;
+    display: block;
+}
+
+.navbar-headerlogo {
+    width: 150px;
+    height: 79px;
+/ / background: #ff2de6;
+    float: left;
+    position: relative;
+}
+
+.vertical-align-middle {
+    width: 150px;
+    height: 50px;
+/ / background: #1852ff;
+    float: left;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.vertical-align-middle img {
+    max-width: 100%;
+}
+
+.nav-headerright {
+    width: 602px;
+    height: 79px;
+/ / background: #ff4b31;
+    float: right;
+    margin-right: -15px;
+}
+
+.nav-headerright li {
+    width: 86px;
+    height: 79px;
+/ / background: #a9ffae;
+    float: left;
+    font-size: 14px;
+    line-height: 79px;
+    text-align: center;
+}
+
+.nav-headerright li:hover {
+    color: #16b0dc;
+}
+
+.nav-headerright li:nth-child(5) {
+    color: #16d0bc;
+}
+
+/*到行栏结束*/
+.met-img {
+    //background: #f3a90a;
+    width: 1349px;
+    height: 1089px;margin-top: 79px;    margin-left: auto;
+    margin-right: auto;
+}
+
+.met-banner {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    //background: #e53935;
+    width: 1349px;
+    height: 1089px;
+}
+
+#row {
+    margin-right: -15px;
+    margin-left: -15px;
+    //background: #0fffff;
+    width: 1349px;
+    height: 1089px;
+}
+
+#last {
+    margin: 0;
+    padding: 0;width: 1349px;
+    height: 1089px;
+}
+
+#img_one {
+
+    border-radius: 0;
+    position: relative;
+    float: left;
+    display: list-item;width: 674.5px;
+    height: 532.5px;
+}
+
+#one-first {
+    border-radius: 0;
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+    margin: 0;
+    overflow: hidden;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);width: 674.5px;
+    height: 532.5px;
+}
+#one-first  img{
+    width: 100%;    height: 100%;
+    border-radius: 0;    margin-bottom: 0;
+}
+
+.one-first2{
+    opacity:0.5;/*background: rgba(0, 0, 0, .5);*/
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;margin: auto;
+    color: #fff;text-align: center;
+    display: inline-block;
+    width: 674.5px;
+    height: 532.5px;
+    /*background:gold;*/
+}
+.one-first2:hover{
+    color: white;
+}
+.zhengfangxing{
+    vertical-align:center;display: inline-block;
+    text-align: center;
+    font-size: 14px;color: #fff;width: 120px;
+    height: 137px;
+    /*background: #e53935;*/
+    margin-top:198px ;box-sizing: border-box;
+}
+.img_one{
+    color: #fff;
+    opacity: .8;
+    width: 120px;
+    height: 38px;
+}
+.img_two{
+    width: 20px;height: 2px;    display: block;
+    margin:  0 auto 15px;
+    content: "";
+    background-color: #fff;
+}.zhengfangxing h3{
+     color: #fff;    margin-bottom: 20px;    margin-top: 0;    font-size: 24px;font-weight: 400;
+     line-height: 1.2;
+ }
+ .button{
+     color: #fff;
+     background-color: transparent;
+     display: inline-block;padding: 6px 15px;
+     font-size: 14px;
+     line-height: 1.57142857;
+     border-radius: 3px;border: white solid 2px;
+ }
+.flower-footer{
+//background: #f5f5f5;
+    border-top: 1px solid #f0f2f5;
+    padding-bottom: 20px;
+    height: auto;/*margin-top:30px ;*/
+    line-height: 1.8;background: #f1f1f1;text-align: center;
+}
+.three-footer{
+    padding: 5px 0;font-size: 40px;
+}
+.w{
+    height: 20px;
+    width: 100%;background: white;
+    margin-top: 20px;
+}
+.add-tzt{
+    width: 1170px;
+    height: 75px;
+    /*background: #a8ffa5;*/
+    padding: 0 15px;margin: 0 auto;box-sizing: border-box;text-align: center;
+    color: #aaaaaa;
+}
+
+.add-one{
+    width: 30px;
+    height: 30px;
+    background: rgb(253, 251, 255);
+    justify-content: center;/*水平垂直居中*/
+    align-items: center;
+    display: -webkit-flex;
+}
+.last-font{
+    color: blue;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+.last-font span:hover{
+    text-decoration: underline;
+}
+.fix-img{
+    width: 30px;
+    height: 30px;
+    background: rgb(255, 22, 0);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 1020120 */
+    src: url('//at.alicdn.com/t/font_1020120_yz47yxvlgh.eot');
+    src: url('//at.alicdn.com/t/font_1020120_yz47yxvlgh.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_1020120_yz47yxvlgh.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_1020120_yz47yxvlgh.woff') format('woff'),
+    url('//at.alicdn.com/t/font_1020120_yz47yxvlgh.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_1020120_yz47yxvlgh.svg#iconfont') format('svg');
+}
+i{
+    font-style: normal;
+    font-family: iconfont;
+}
